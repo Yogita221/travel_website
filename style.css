@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    
+}
+
+
+.upper-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #003b95;
+    margin: 0 auto;
+}
+
+.upper-nav .logo {
+    font-size: 2vw;
+    font-weight: 800;
+    color: #ffffff;
+}
+.currency {
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+.property{
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+.india-logo img{
+    height: 60px;
+    width: 7vw;
+}
+.user-actions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.user-actions .btn {
+    background-color: #ffffff;
+    color: #0071c2;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.user-actions .btn:hover{
+    background-color: #003580;
+    color: #ffffff;
+}
+
+.lower-nav{
+    
+    height: 100px;
+    background-color: #003b95;
+    display: flex;
+   
+    align-items: center;
+}
+.lower-nav a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.lower-nav a:hover{
+    text-decoration: underline;
+}
+
+
+.search-bar {
+    background-color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar h1 {
+    font-size: 3vw;
+    font-weight: 900;
+    color: #003580;
+}
+.search-bar p{
+    font-size: 1.5vw;
+    margin-top: 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.input {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.search-btn {
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #003580;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #f9fafb;
+}
+
+.offer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 10px;
+    text-align: center;
+}
+.offer img{
+    margin-top: 10px;
+    height: 220px;
+    width: 25vw;
+}
+
+.offer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.offer p{
+    margin-top: 20px;
+    font-size: 1.1vw;
+}
+
+.offer .btn {
+    font-size: 1vw;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.offer .btn:hover{
+    background-color: #03285f;
+}
+
+.browse h1{
+    margin-left: 60px;
+}
+.browse-img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image1 img{
+    margin-top: 30px;
+   width: 20vw;
+   border-radius:20px ;
+   transition: transform 0.3s ease, filter 0.3s ease;
+}
+.image1 h1{
+    font-size: 1.2vw;
+    color: #03285f;
+    text-align: left;
+}
+.image1 img:hover{
+    transform: scale(1.1); 
+    filter: brightness(0.9); 
+    cursor: pointer; 
+}
+.destination{
+    margin-top: 30px;
+}
+.destination h1{
+    margin-left: 60px;
+    
+}
+
+.destination p{
+    color: gray;
+    margin-top: 15px;
+    margin-left: 65px;
+    font-size: 1.6vw;
+}
+ .des-img{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .des-img img{
+    height: 350px;
+    width: 45vw;
+    border-radius: 15px;
+}
+
+.des-img2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.des-img2 img{
+    height: 250px;
+    width: 30vw;
+    border-radius: 15px;
+} */
+
+.des-img .box1{
+     background-image: url(https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg);
+     height: 350px;
+     width: 45vw;
+     border-radius: 15px;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+
+    }
+
+.des-img .box1 .box1-overlay{
+    font-size: 1.2vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #FF9933, white, #138808);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.des-img .box2 .box2-overlay{
+    font-size: 1.2vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #FF9933, white, #138808);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+.des-img .box2{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/684534.jpg?k=d1fe86c22f2433f4e2dda14ddcbe80feb024b0fb30305e5684a1241fba5d4cff&o=);
+    height: 350px;
+    width: 45vw;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+
+ .des-img2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .des-img2 .city1{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/971346.jpg?k=40eeb583a755f2835f4dcb6900cdeba2a46dc9d50e64f2aa04206f5f6fce5671&o=);
+    height: 250px;
+    width: 30vw;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ .des-img2 .city2{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/684730.jpg?k=e37b93d88c1fe12e827f10c9d6909a1def7349be2c68df5de885deaa4bc01ee3&o=);
+    height: 250px;
+    width: 30vw;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ .des-img2 .city3{
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/684653.jpg?k=306ccafcc8a4a7e23b9e8a05b183453fe885b312a4daa5ce76ec39a1b79cbc6f&o=);
+    height: 250px;
+    width: 30vw;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ }
+ .des-img2 .city1 .city1-overlay,
+ .des-img2 .city2 .city2-overlay,
+ .des-img2 .city3 .city3-overlay
+ {
+    font-size: 1.2vw;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #FF9933, white, #138808);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+
+/* -----Footer--------- */
+
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 40px;
+  }
+  
+  .popular-section {
+   
+    text-align: center;
+  }
+  
+  .popular-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+    
+  }
+  
+  .tab {
+    border: none;
+    background-color: transparent;
+    color: #0071c2;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .tab-active {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .links div {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #232527;
+  }
+  
+  .show-more {
+    background-color: transparent;
+    border: none;
+    color: #17191c;
+    cursor: pointer;
+    font-size: 1vw;
+    
+  }
+  .region{
+    margin: 40px;
+  }
+  .region p{
+    font-size: 0.9vw;
+    word-spacing: 2px;
+    text-align: left;
+    line-height: 2;
+
+  }
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 40px;
+   
+  }
+  
+  .footer-links div {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .last-footer{
+    padding-left:80px ;
+    text-align: center;
+  }
+  .footer-logo{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+.footer-logo img:hover{
+    transform: scaleX(1.3);
+
+}
+
+
+
+
+
+
+
